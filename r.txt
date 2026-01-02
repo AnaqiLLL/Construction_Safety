@@ -1,0 +1,28 @@
+0%|          | 0/39 [00:00<?, ?it/s]
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    100/100         0G      1.741       2.38      2.099          7        800: 100%|██████████| 39/39 [01:50<00:00,  2.84s/it]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:05<00:00,  1.34s/it]
+                   all         57        221      0.453       0.19      0.174     0.0902
+
+100 epochs completed in 3.303 hours.
+Optimizer stripped from runs\train\yolo11_safety_detector\weights\last.pt, 5.1MB
+Optimizer stripped from runs\train\yolo11_safety_detector\weights\best.pt, 5.1MB
+
+Validating runs\train\yolo11_safety_detector\weights\best.pt...
+Ultralytics 8.3.58 🚀 Python-3.12.5 torch-2.6.0+cpu CPU (unknown)
+YOLO11-ghost summary (fused): 250 layers, 2,349,547 parameters, 0 gradients
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 4/4 [00:04<00:00,  1.06s/it]
+                   all         57        221      0.494      0.179      0.196      0.101
+            excavators          3          3      0.614      0.667      0.613      0.325
+                gloves          3          5          0          0          0          0
+               hardhat         34        115      0.698      0.322      0.489      0.213
+            no-hardhat          6          9      0.223      0.222      0.128     0.0716
+               no-mask          7         14          0          0          0          0
+        no-safety vest          6         14          1          0    0.00737    0.00302
+                person          7         23          1          0   0.000847   0.000678
+          safety shoes          3         13          0          0          0          0
+           safety vest          2          6          1          0    0.00377    0.00165
+            dump truck          7          8      0.363      0.125      0.188      0.102
+          wheel loader         11         11      0.535      0.636       0.73       0.39
+Speed: 1.0ms preprocess, 63.5ms inference, 0.0ms loss, 1.5ms postprocess per image
+Results saved to runs\train\yolo11_safety_detector
