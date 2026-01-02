@@ -56,6 +56,8 @@ python src/detect.py --weights weights/best.pt --source data/test_images/ --imgs
 python src/detect.py --weights weights/best.pt --source data/demo_video.mp4 --imgsz 1024
 ```
 
+![Results](assets/results.png)
+
 ## 4. Team Members & Contributions (团队分工)
 
 - **Qi Letian (1220013185)**: Lead of model training, hyperparameter optimization, performance analysis, and GitHub repository management.
