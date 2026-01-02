@@ -2,7 +2,7 @@
 
 # 基于 YOLOv11-Ghost 的建筑工地安全防护与机械检测系统
 
-![Results](assets/val_batch2_labels.jpg)
+![Results](assets/val_batch2_pred.jpg)
 
 This project is the final assignment for the Computer Vision course at Macau University of Science and Technology (MUST). We implement a lightweight detection system to identify 17 classes of construction safety elements using the YOLOv11-Ghost architecture.
 
