@@ -1,0 +1,20 @@
+# safety.yaml 文件内容修正
+
+# 将 path 设置为数据集根目录的绝对路径，即包含 train/val/test 文件夹的上层目录
+path: D:/BaiduSyncdisk/University/MUST/Studying/G4.1/计算机视觉/Project/Construction_Safety/data/construction_safety
+
+# 训练集图片和标签的相对路径（相对于上面的 path）
+train: train/images
+val: val/images
+test: test/images # 你的数据结构中包含 test，建议也加上
+
+# 类别数量
+nc: 17
+
+# 类别名称
+names: ['barricade', 'dumpster', 'excavators',
+        'gloves', 'hardhat', 'mask', 'no-hardhat',
+        'no-mask', 'no-safety vest', 'person',
+        'safety net', 'safety shoes', 'safety vest',
+        'dump truck', 'mini-van', 'truck', 'wheel loader']
+
