@@ -49,14 +49,9 @@ Ensure `best.pt` is in the `weights/` folder.
 ### Image Detection (图片检测)
 
 ```
-python src/detect.py --weights weights/best.pt --source data/test_images/ --imgsz 1024
+python src/detect.py --weights weights/best.pt --source data/test_images/ --imgsz 800
 ```
 
-### Video Detection (视频检测)
-
-```
-python src/detect.py --weights weights/best.pt --source data/demo_video.mp4 --imgsz 1024
-```
 
 ![Results](assets/results.png)
 
