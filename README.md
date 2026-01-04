@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 After 14 rounds of ablation studies, we selected the **V2 Balanced** version as our final model.
 
-- **Architecture**: YOLOv11n-Ghost-Nano
+- **Architecture**: YOLOv11n-Ghost
     
 - **Best Weight**: `weights/best.pt`
     
